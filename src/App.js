@@ -1,5 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import DragNDrop from './components/DragNDrop';
+
+const data = [
+  {title: 'Monday', items: ['1', '2', '3']},
+  {title: 'Tuesday', items: ['4', '5']}
+]
 
 function App() {
   return (
@@ -18,6 +24,17 @@ function App() {
           Learn React
         </a>
       </header>
+      <DragNDrop data={data} />
+
+      {/* <div className="drag-n-drop">
+        <div className="dnd-day">
+          <div className="dnd-day-title">Monday</div>
+          <div className="dnd-item">
+            <p>Item 1</p>
+          </div>
+        </div>
+      </div> */}
+      
     </div>
   );
 }

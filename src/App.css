@@ -1,9 +1,11 @@
 .App {
   text-align: center;
+  background: #282c34;
+  min-height: 100vh;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
 }
 
@@ -15,17 +17,57 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /* font-size: calc(10px + 2vmin); */
   color: white;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.drag-n-drop {
+  display: grid;
+  gap: 0.5rem;
+  width: 100%;
+  height: 100%;
+  padding: 0.5rem;
+  grid-template-columns: repeat(auto-fill, 300px);
+  color: white;
+  align-items: start;
+}
+.dnd-day {
+  background-color: #464c58;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+.dnd-day-title {
+  font-size: 1.2rem;
+  margin-bottom: .5rem;
+}
+.dnd-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  color: #282c34;
+  min-height: 150px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.dnd-item:not(:last-of-type) {
+  margin-bottom: 0.5rem;
+}
+.dnd-item * {
+  margin: 0;
+}
+/* .current when dragging */
+.current {
+  background-color: #282c34;
 }
 
 @keyframes App-logo-spin {
