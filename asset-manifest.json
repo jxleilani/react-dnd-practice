@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-dnd-practice/static/css/main.6bbd36bf.chunk.css",
+    "main.js": "/react-dnd-practice/static/js/main.4a16d7a3.chunk.js",
+    "main.js.map": "/react-dnd-practice/static/js/main.4a16d7a3.chunk.js.map",
+    "runtime-main.js": "/react-dnd-practice/static/js/runtime-main.b42f6f1e.js",
+    "runtime-main.js.map": "/react-dnd-practice/static/js/runtime-main.b42f6f1e.js.map",
+    "static/js/2.60ba42b8.chunk.js": "/react-dnd-practice/static/js/2.60ba42b8.chunk.js",
+    "static/js/2.60ba42b8.chunk.js.map": "/react-dnd-practice/static/js/2.60ba42b8.chunk.js.map",
+    "static/js/3.67bf04b6.chunk.js": "/react-dnd-practice/static/js/3.67bf04b6.chunk.js",
+    "static/js/3.67bf04b6.chunk.js.map": "/react-dnd-practice/static/js/3.67bf04b6.chunk.js.map",
+    "index.html": "/react-dnd-practice/index.html",
+    "static/css/main.6bbd36bf.chunk.css.map": "/react-dnd-practice/static/css/main.6bbd36bf.chunk.css.map",
+    "static/js/2.60ba42b8.chunk.js.LICENSE.txt": "/react-dnd-practice/static/js/2.60ba42b8.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/react-dnd-practice/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b42f6f1e.js",
+    "static/js/2.60ba42b8.chunk.js",
+    "static/css/main.6bbd36bf.chunk.css",
+    "static/js/main.4a16d7a3.chunk.js"
+  ]
+}
